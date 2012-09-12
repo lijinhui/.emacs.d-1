@@ -28,3 +28,11 @@
 (setq inhibit-startup-screen t)
 (setq inhibit-startup-screen t)
 (switch-to-buffer "*scratch*")
+
+;; Hack zap-to-char to zap-up-to-char leaving the given CHAR
+(defadvice zap-to-char (after my-zap-to-char-advice (arg char) activate)
+  "Kill up to the ARG'th occurence of CHAR, and leave CHAR. If
+  you are deleting forward, the CHAR is replaced and the point is
+  put before CHAR"
+  (insert char)
+  (if (< 0 arg) (forward-char -1)))
