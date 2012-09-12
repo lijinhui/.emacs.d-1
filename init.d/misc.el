@@ -23,3 +23,8 @@
 
 ;; auto-completion in minibuffer
 (icomplete-mode +1)
+
+;; Switch to *scratch* buffer on startup
+(setq inhibit-startup-screen t)
+(setq inhibit-startup-screen t)
+(switch-to-buffer "*scratch*")
