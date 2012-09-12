@@ -1,0 +1,13 @@
+backup
+url
+\#*
+#*
+.\#*
+.#*
+auto-save*
+auto-save-list
+external
+backup
+ac-comphist.dat
+url
+elpa
