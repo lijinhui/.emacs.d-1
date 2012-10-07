@@ -17,24 +17,26 @@
                       guru-mode
                       expand-region
                       ruby-tools
-		      color-theme
-		      color-theme-monokai
+          	      color-theme
+                      color-theme-sanityinc-tomorrow
+                      color-theme-sanityinc-solarized
+                      color-theme-monokai
 		      color-theme-molokai
-		      color-theme-sanityinc-tomorrow
-		      color-theme-sanityinc-solarized
                       ruby-end
                       rsense
                       rinari
                       haml-mode
                       textmate
                       inf-ruby
-		      rvm
-		      yaml-mode
-		      rainbow-mode
-		      ido-ubiquitous
-		      coffee-mode
+                      rvm
+                      yaml-mode
+                      rainbow-mode
+                      ido-ubiquitous
+                      coffee-mode
                       autopair
-		      fill-column-indicator)
+                      rspec-mode
+                      multiple-cursors
+		                  fill-column-indicator)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
