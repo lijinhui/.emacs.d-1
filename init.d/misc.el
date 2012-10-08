@@ -36,3 +36,6 @@
   put before CHAR"
   (insert char)
   (if (< 0 arg) (forward-char -1)))
+
+;; Enable perspective mode for workspaces
+(persp-mode)
