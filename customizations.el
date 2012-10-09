@@ -10,6 +10,7 @@
  '(cua-remap-control-z t)
  '(custom-safe-themes (quote ("b7553781f4a831d5af6545f7a5967eb002c8daeee688c5cbf33bf27936ec18b3" "965234e8069974a8b8c83e865e331e4f53ab9e74" default)))
  '(fill-column 80)
+ '(fringe-mode (quote (nil . 0)) nil (fringe))
  '(global-linum-mode t)
  '(global-visual-line-mode t)
  '(ido-enable-flex-matching t)
@@ -18,6 +19,7 @@
  '(ido-use-url-at-point t)
  '(indent-tabs-mode nil)
  '(js-indent-level 2)
+ '(left-fringe-width 3 t)
  '(mark-even-if-inactive nil)
  '(markdown-command "redcarpet --parse-fenced_code_blocks")
  '(multi-term-dedicated-select-after-open-p t)
@@ -28,6 +30,7 @@
  '(org-emphasis-alist (quote (("*" bold "<strong>" "</strong>") ("/" italic "<em>" "</em>") ("_" underline "<span style=\"text-decoration:underline;\">" "</span>") ("=" org-code "<code>" "</code>" verbatim) ("~" org-verbatim "<code>" "</code>" verbatim) ("+" (:strike-through t) "<del>" "</del>"))))
  '(org-export-htmlize-output-type (quote css))
  '(org-export-htmlized-org-css-url nil)
+ '(org-log-done (quote note))
  '(org-replace-disputed-keys t)
  '(org2blog/wp-default-categories (quote ("Uncategorized")))
  '(ruby-deep-arglist nil)
@@ -43,6 +46,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight light :height 100 :width normal :foundry "unknown" :family "Source Code Pro")))))
+ '(default ((t (:stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight light :height 100 :width normal :foundry "unknown" :family "Source Code Pro"))))
+ '(mode-line ((t (:foreground "#030303" :background "#bdbdbd" :box nil))))
+ '(mode-line-inactive ((t (:foreground "#f9f9f9" :background "#666666" :box nil)))))
 
 

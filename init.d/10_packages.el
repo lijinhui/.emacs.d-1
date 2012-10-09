@@ -36,7 +36,8 @@
                       autopair
                       rspec-mode
                       multiple-cursors
-		                  fill-column-indicator)
+                      perspective
+                      fill-column-indicator)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
