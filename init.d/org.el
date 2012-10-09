@@ -3,3 +3,5 @@
         (sequence "FEATURE(f)" "|" "COMPLETED(c)")
         (sequence "BUG(b)" "|" "FIXED(x)")
         (sequence "|" "CANCELED(a)")))
+
+(setq org-log-done 'time)

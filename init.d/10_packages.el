@@ -1,7 +1,7 @@
 (require 'package)
 
-;;(setq url-proxy-services '(("no_proxy" . "work\\.com")
-;;                           ("http" . "workproxy.com:911")))
+(setq url-proxy-services '(("no_proxy" . "work\\.com")
+                           ("http" . "proxy.jf.intel.com:911")))
 
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives '("tromey" . "http://tromey.com/elpa/"))
@@ -34,10 +34,10 @@
                       ido-ubiquitous
                       coffee-mode
                       autopair
-                      rspec-mode
                       multiple-cursors
+                      rspec-mode
                       perspective
-                      fill-column-indicator)
+		      fill-column-indicator)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)

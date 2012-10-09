@@ -37,5 +37,10 @@
   (insert char)
   (if (< 0 arg) (forward-char -1)))
 
+<<<<<<< HEAD
 (persp-mode)
 (color-theme-molokai)
+=======
+;; Enable perspective mode for workspaces
+(persp-mode)
+>>>>>>> 3701d68fadac26990cc67fcbdb4ed3ac92e5e89c
