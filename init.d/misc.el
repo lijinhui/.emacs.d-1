@@ -26,8 +26,6 @@
 
 ;; Switch to *scratch* buffer on startup
 (setq inhibit-startup-screen t)
-(setq inhibit-startup-screen t)
-(switch-to-buffer "*scratch*")
 
 ;; Hack zap-to-char to zap-up-to-char leaving the given CHAR
 (defadvice zap-to-char (after my-zap-to-char-advice (arg char) activate)
@@ -37,10 +35,17 @@
   (insert char)
   (if (< 0 arg) (forward-char -1)))
 
-<<<<<<< HEAD
-(persp-mode)
-(color-theme-molokai)
-=======
 ;; Enable perspective mode for workspaces
 (persp-mode)
->>>>>>> 3701d68fadac26990cc67fcbdb4ed3ac92e5e89c
+
+;; Set the color-theme
+(color-theme-molokai)
+
+;; y or n vs yes or no
+(fset 'yes-or-no-p 'y-or-n-p)
+
+;; Visual bell instead of audo bell
+(setq visible-bell t)
+
+;; Delete whitespace on save
+(add-hook 'before-save-hook (lambda () (delete-trailing-whitespace)))
