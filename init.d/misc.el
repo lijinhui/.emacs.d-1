@@ -49,3 +49,7 @@
 
 ;; Delete whitespace on save
 (add-hook 'before-save-hook (lambda () (delete-trailing-whitespace)))
+
+;; Set cursor to bar and color
+(setq default-cursor-type '(bar . 2))
+(set-cursor-color "#FF0000")
