@@ -1,7 +1,7 @@
 (require 'package)
 
 (setq url-proxy-services '(("no_proxy" . "work\\.com")
-                           ("http" . "proxy.jf.intel.com:911")))
+                           ("http" . "proxy.com:911")))
 
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives '("tromey" . "http://tromey.com/elpa/"))
