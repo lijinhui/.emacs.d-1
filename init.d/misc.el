@@ -39,7 +39,7 @@
 (persp-mode)
 
 ;; Set the color-theme
-(color-theme-molokai)
+;; (color-theme-molokai)
 
 ;; y or n vs yes or no
 (fset 'yes-or-no-p 'y-or-n-p)
