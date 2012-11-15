@@ -13,31 +13,31 @@
   (package-refresh-contents))
 
 (defvar my-packages '(auto-complete
-                      ack-and-a-half
-                      guru-mode
+                      ;; ack-and-a-half
+                      ;; guru-mode
                       expand-region
                       ruby-tools
-          	      color-theme
+              	      color-theme
                       color-theme-sanityinc-tomorrow
                       color-theme-sanityinc-solarized
                       color-theme-monokai
-		      color-theme-molokai
+                      color-theme-molokai
                       ruby-end
                       rsense
-                      rinari
+                      ;; rinari
                       haml-mode
                       textmate
-                      inf-ruby
+                      ;; inf-ruby
                       rvm
                       yaml-mode
-                      rainbow-mode
-                      ido-ubiquitous
+                      ;; rainbow-mode
+                      ;; ido-ubiquitous
                       coffee-mode
-                      autopair
-                      multiple-cursors
+                      ;; autopair
+                      ;; multiple-cursors
                       rspec-mode
                       magit
-                      perspective
+                      ;; perspective
 		      fill-column-indicator)
   "A list of packages to ensure are installed at launch.")
 

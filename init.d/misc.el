@@ -36,7 +36,7 @@
   (if (< 0 arg) (forward-char -1)))
 
 ;; Enable perspective mode for workspaces
-(persp-mode)
+;; (persp-mode)
 
 ;; Set the color-theme
 ;; (color-theme-molokai)
@@ -53,3 +53,9 @@
 ;; Set cursor to bar and color
 (setq default-cursor-type '(bar . 2))
 (set-cursor-color "#FF0000")
+
+;; Global electric mode
+(electric-pair-mode 1)
+
+;; Set font
+(set-default-font "Source Code Pro Light-10")

@@ -12,3 +12,7 @@
 ;; Textmate mode binding
 (define-key global-map (kbd "M-t") 'textmate-goto-file)
 (define-key global-map (kbd "M-T") 'textmate-goto-symbol)
+
+(setq mac-option-modifier 'meta
+      mac-command-modifier 'super
+      x-select-enable-clipboard t)
