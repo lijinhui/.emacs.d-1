@@ -41,3 +41,13 @@
  '(term-unbind-key-list (quote ("C-z" "C-x" "C-h" "C-y" "<ESC>")))
  '(tool-bar-mode nil)
  '(whitespace-style (quote (face tabs trailing space-before-tab indentation empty space-after-tab tab-mark))))
+
+(set-default-font "Source Code Pro-10") ;; Set default font
+
+(setq make-backup-files        nil) ;; Don't want any backup files
+(setq auto-save-list-file-name nil) ;; Don't want any .saves files
+(setq auto-save-default        nil) ;; Don't want any auto saving
+
+(setq search-highlight            t) ;; Highlight search object
+(setq query-replace-highlight     t) ;; Highlight query object
+(setq mouse-sel-retain-highlight  t) ;; Keep mouse highlighting
