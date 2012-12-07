@@ -42,7 +42,8 @@
  '(tool-bar-mode nil)
  '(whitespace-style (quote (face tabs trailing space-before-tab indentation empty space-after-tab tab-mark))))
 
-(set-default-font "Source Code Pro-10") ;; Set default font
+(set-default-font "Inconsolata-11") ;; Set default font
+(color-theme-gruber-darker)
 
 (setq make-backup-files        nil) ;; Don't want any backup files
 (setq auto-save-list-file-name nil) ;; Don't want any .saves files

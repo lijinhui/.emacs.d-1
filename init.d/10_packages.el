@@ -17,11 +17,6 @@
                       guru-mode
                       expand-region
                       ruby-tools
-          	      color-theme
-                      color-theme-sanityinc-tomorrow
-                      color-theme-sanityinc-solarized
-                      color-theme-monokai
-		      color-theme-molokai
                       ruby-end
                       rsense
                       rinari
@@ -38,7 +33,14 @@
                       rspec-mode
                       magit
                       perspective
-		      fill-column-indicator)
+		      fill-column-indicator
+                      color-theme
+                      color-theme-sanityinc-tomorrow
+                      color-theme-sanityinc-solarized
+                      color-theme-monokai
+		      color-theme-molokai
+                      color-theme-github
+                      color-theme-gruber-darker)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)
