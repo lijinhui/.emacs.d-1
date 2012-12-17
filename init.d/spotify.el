@@ -20,6 +20,6 @@
 (defun spotify-next () "Next song in Spotify" (interactive)
   (shell-command "spotify next"))
 
-(global-set-key (kbd "C-c <C-S-right>") 'spotify-next)
-(global-set-key (kbd "C-c <C-S-left>") 'spotify-previous)
-(global-set-key (kbd "C-c <C-S-up>") 'spotify-toggle)
+(global-set-key (kbd "<f7>") 'spotify-previous)
+(global-set-key (kbd "<f8>") 'spotify-toggle)
+(global-set-key (kbd "<f9>") 'spotify-next)
