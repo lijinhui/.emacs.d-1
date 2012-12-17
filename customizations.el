@@ -44,6 +44,7 @@
 
 (set-default-font "Inconsolata-11") ;; Set default font
 (color-theme-gruber-darker)
+(menu-bar-mode 0)
 
 (setq make-backup-files        nil) ;; Don't want any backup files
 (setq auto-save-list-file-name nil) ;; Don't want any .saves files
