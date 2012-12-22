@@ -18,8 +18,7 @@
 
 ;; Clone repo to ~/Org from Github
 (defun org-initialize () "Clone my Org repo" (interactive)
-  (shell-command "cd $HOME")
-  (shell-command "git clone git@github.com:bradylove/Org.git"))
+  (shell-command "git clone git@github.com:bradylove/Org.git $HOME/Org"))
 
 
 ;; Add more todo keywords to ORG mode
