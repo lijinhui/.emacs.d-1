@@ -17,6 +17,7 @@
                       guru-mode
                       expand-region
                       ruby-tools
+                      writeroom-mode
                       ruby-end
                       rsense
                       rinari
@@ -40,6 +41,7 @@
                       color-theme-monokai
 		      color-theme-molokai
                       color-theme-github
+                      color-theme-tango
                       color-theme-gruber-darker)
   "A list of packages to ensure are installed at launch.")
 
