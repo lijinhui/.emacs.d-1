@@ -12,3 +12,6 @@
 ;; Textmate mode binding
 (define-key global-map (kbd "M-t") 'textmate-goto-file)
 (define-key global-map (kbd "M-T") 'textmate-goto-symbol)
+
+;; Toggle comment
+(define-key global-map (kbd "<f11>") 'comment-or-uncomment-region-or-line)
