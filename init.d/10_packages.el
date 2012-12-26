@@ -35,6 +35,7 @@
                       magit
                       perspective
 		      fill-column-indicator
+                      color-theme-ir-black
                       color-theme
                       color-theme-sanityinc-tomorrow
                       color-theme-sanityinc-solarized
