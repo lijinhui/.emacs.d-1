@@ -42,9 +42,9 @@
  '(tool-bar-mode nil)
  '(whitespace-style (quote (face tabs trailing space-before-tab indentation empty space-after-tab tab-mark))))
 
-(set-default-font "Inconsolata-11") ;; Set default font
-(set-frame-parameter (selected-frame) 'alpha '(95 90))
-(color-theme-gruber-darker)
+(set-default-font "Menlo-09") ;; Set default font
+;; (set-frame-parameter (selected-frame) 'alpha '(95 90))
+;; (color-theme-gruber-darker)
 (menu-bar-mode 0)
 
 (setq make-backup-files        nil) ;; Don't want any backup files
