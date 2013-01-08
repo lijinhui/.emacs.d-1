@@ -42,6 +42,7 @@
  '(tool-bar-mode nil)
  '(whitespace-style (quote (face tabs trailing space-before-tab indentation empty space-after-tab tab-mark))))
 
+
 (set-default-font "Menlo-09") ;; Set default font
 ;; (set-frame-parameter (selected-frame) 'alpha '(95 90))
 ;; (color-theme-gruber-darker)

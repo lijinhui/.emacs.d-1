@@ -34,6 +34,7 @@
                       rspec-mode
                       magit
                       perspective
+                      slime
 		      fill-column-indicator
                       color-theme-ir-black
                       color-theme
