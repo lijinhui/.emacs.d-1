@@ -15,3 +15,6 @@
 
 ;; Toggle comment
 (define-key global-map (kbd "<f11>") 'comment-or-uncomment-region-or-line)
+
+;; Toggle NS fullscreen
+(define-key global-map (kbd "<C-S-f12>") 'ns-toggle-fullscreen)

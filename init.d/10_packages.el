@@ -36,14 +36,12 @@
                       perspective
                       slime
 		      fill-column-indicator
-                      color-theme-ir-black
                       color-theme
                       color-theme-sanityinc-tomorrow
                       color-theme-sanityinc-solarized
                       color-theme-monokai
 		      color-theme-molokai
                       color-theme-github
-                      color-theme-tango
                       color-theme-gruber-darker)
   "A list of packages to ensure are installed at launch.")
 
