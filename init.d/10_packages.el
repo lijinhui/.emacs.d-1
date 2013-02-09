@@ -34,8 +34,8 @@
                       rspec-mode
                       magit
                       perspective
-                      slime
 		      fill-column-indicator
+                      cppcheck
                       color-theme
                       color-theme-sanityinc-tomorrow
                       color-theme-sanityinc-solarized
