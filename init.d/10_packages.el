@@ -25,6 +25,7 @@
                       textmate
                       inf-ruby
                       rvm
+                      feature-mode
                       yaml-mode
                       rainbow-mode
                       ido-ubiquitous

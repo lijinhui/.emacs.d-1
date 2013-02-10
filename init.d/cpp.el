@@ -2,5 +2,5 @@
 (defun compile-current-file ()
   "Compiles the currently active file"
   (interactive)
-  (setq compile-command (format "%s %s" "clang++ -std=c++11 -stdlib=libc++" (buffer-name)))
+  (setq compile-command (format "%s %s" "g++ -std=c++11 " (buffer-name)))
   (compile compile-command))

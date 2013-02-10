@@ -43,7 +43,7 @@
  '(whitespace-style (quote (face tabs trailing space-before-tab indentation empty space-after-tab tab-mark))))
 
 
-(set-default-font "Inconsolata-11") ;; Set default font
+(set-default-font "DejaVu Sans Mono-08") ;; Set default font
 ;; (set-frame-parameter (selected-frame) 'alpha '(95 90))
 ;; (color-theme-gruber-darker)
 (menu-bar-mode 0)
