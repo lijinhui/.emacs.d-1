@@ -6,19 +6,38 @@
 ;; osascript /Users/brady/Scripts/SpotifyControl.scpt "$1"
 
 (defun spotify-play () "Play Spotify" (interactive)
-  (shell-command "spotify play"))
+  (if (string-equal system-type "gnu/linux")
+      (spotify-linux-command "Play"))
+  (if (string-equal system-type "darwin")
+      (shell-command "spotify play")))
 
 (defun spotify-pause () "Pause Spotify" (interactive)
-  (shell-command "spotify pause"))
+  (if (string-equal system-type "gnu/linux")
+      (spotify-linux-command "Pause"))
+  (if (string-equal system-type "darwin")
+      (shell-command "spotify pause")))
 
 (defun spotify-toggle () "Play/Pause Spotify" (interactive)
-  (shell-command "spotify play/pause"))
+  (if (string-equal system-type "gnu/linux")
+      (spotify-linux-command "PlayPause"))
+  (if (string-equal system-type "darwin")
+      (shell-command "spotify play/pause")))
 
 (defun spotify-previous () "Starts the song over in Spotify" (interactive)
-  (shell-command "spotify prev"))
+  (if (string-equal system-type "gnu/linux")
+      (spotify-linux-command "Previous"))
+  (if (string-equal system-type "darwin")
+      (shell-command "spotify prev")))
 
 (defun spotify-next () "Next song in Spotify" (interactive)
-  (shell-command "spotify next"))
+  (if (string-equal system-type "gnu/linux")
+      (spotify-linux-command "Next"))
+  (if (string-equal system-type "darwin")
+      (shell-command "spotify next")))
+
+(defun spotify-linux-command (command-name) "Execute command for Spotify" (interactive)
+  (setq command-text (format "%s%s" "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player." command-name))
+  (shell-command command-text))
 
 (global-set-key (kbd "<f7>") 'spotify-previous)
 (global-set-key (kbd "<f8>") 'spotify-toggle)
