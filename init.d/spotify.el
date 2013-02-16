@@ -1,9 +1,13 @@
-;;Small minor mode to control spotify from emacs
+;; Some methods for controlling Spotify from within Emacs
+
+;; For OSX
 ;; Get the osascript from https://github.com/dronir/SpotifyControl
 ;; Create file in /usr/bin/spotify with the following contents
 ;;
 ;; #! /usr/bash
 ;; osascript /Users/brady/Scripts/SpotifyControl.scpt "$1"
+;;
+;; For linux, no additional files are needed :)
 
 (defun spotify-play () "Play Spotify" (interactive)
   (if (string-equal system-type "gnu/linux")
