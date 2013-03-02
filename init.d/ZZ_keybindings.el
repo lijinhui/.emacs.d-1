@@ -14,7 +14,15 @@
 (define-key global-map (kbd "M-T") 'textmate-goto-symbol)
 
 ;; Toggle comment
-(define-key global-map (kbd "<f11>") 'comment-or-uncomment-region-or-line)
+(define-key global-map (kbd "s-/") 'comment-or-uncomment-region-or-line)
+
+;; Toggle fullscreen
+(defun toggle-fullscreen ()
+  (interactive)
+  (set-frame-parameter nil 'fullscreen (if (frame-parameter nil 'fullscreen)
+                                           nil
+                                           'fullboth)))
+(define-key global-map ("<f11>") 'toggle-fullscreen)
 
 ;; Toggle NS fullscreen
 (define-key global-map (kbd "<C-S-f12>") 'ns-toggle-fullscreen)

@@ -46,6 +46,8 @@
 (set-default-font "DejaVu Sans Mono-08") ;; Set default font
 ;; (set-frame-parameter (selected-frame) 'alpha '(95 90))
 ;; (color-theme-gruber-darker)
+;; (color-theme-sanityinc-tomorrow-night)
+;; (set-default-font "Inconsolata-09")
 (menu-bar-mode 0)
 
 (setq make-backup-files        nil) ;; Don't want any backup files
