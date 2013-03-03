@@ -22,7 +22,7 @@
   (set-frame-parameter nil 'fullscreen (if (frame-parameter nil 'fullscreen)
                                            nil
                                            'fullboth)))
-(define-key global-map ("<f11>") 'toggle-fullscreen)
+(define-key global-map (kbd "<f11>") 'toggle-fullscreen)
 
 ;; Toggle NS fullscreen
 (define-key global-map (kbd "<C-S-f12>") 'ns-toggle-fullscreen)

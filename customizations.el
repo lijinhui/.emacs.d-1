@@ -48,6 +48,7 @@
 ;; (color-theme-gruber-darker)
 ;; (color-theme-sanityinc-tomorrow-night)
 ;; (set-default-font "Inconsolata-09")
+(color-theme-sanityinc-tomorrow-day)
 (menu-bar-mode 0)
 
 (setq make-backup-files        nil) ;; Don't want any backup files
