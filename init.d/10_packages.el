@@ -13,6 +13,7 @@
   (package-refresh-contents))
 
 (defvar my-packages '(auto-complete
+                      htmlize
                       ack-and-a-half
                       guru-mode
                       expand-region
