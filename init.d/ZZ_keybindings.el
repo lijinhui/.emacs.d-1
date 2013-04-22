@@ -14,7 +14,7 @@
 (define-key global-map (kbd "M-T") 'textmate-goto-symbol)
 
 ;; Toggle comment
-(define-key global-map (kbd "s-/") 'comment-or-uncomment-region-or-line)
+(define-key global-map (kbd "<f12>") 'comment-or-uncomment-region-or-line)
 
 ;; Toggle fullscreen
 (defun toggle-fullscreen ()

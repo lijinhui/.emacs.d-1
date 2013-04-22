@@ -43,7 +43,8 @@
  '(whitespace-style (quote (face tabs trailing space-before-tab indentation empty space-after-tab tab-mark))))
 
 
-(set-default-font "DejaVu Sans Mono-08") ;; Set default font
+(set-default-font "Ubuntu Mono-11")
+;; (set-default-font "DejaVu Sans Mono-10") ;; Set default font
 ;; (set-frame-parameter (selected-frame) 'alpha '(95 90))
 ;; (color-theme-gruber-darker)
 ;; (color-theme-sanityinc-tomorrow-night)
