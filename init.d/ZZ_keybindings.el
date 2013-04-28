@@ -24,5 +24,8 @@
                                            'fullboth)))
 (define-key global-map (kbd "<f11>") 'toggle-fullscreen)
 
-;; Toggle NS fullscreen
-(define-key global-map (kbd "<C-S-f12>") 'ns-toggle-fullscreen)
+;; Disable C-t for textmate mode and rebind to projectile file file
+(define-key global-map (kbd "C-t") 'projectile-find-file)
+
+(define-key global-map (kbd "C-T") 'custom-goto-symbol)
+(define-key global-map (kbd "C-x g") 'magit-status)

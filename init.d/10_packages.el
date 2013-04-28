@@ -12,7 +12,9 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
 
-(defvar my-packages '(rust-mode
+(defvar my-packages '(ag
+                      projectile
+                      rust-mode
                       ctags
                       auto-complete
                       htmlize
@@ -25,7 +27,6 @@
                       rsense
                       rinari
                       haml-mode
-                      textmate
                       inf-ruby
                       rvm
                       feature-mode
