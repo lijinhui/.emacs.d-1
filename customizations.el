@@ -49,6 +49,7 @@
 
 
 (set-default-font "Ubuntu Mono for Powerline-09")
+(add-to-list 'default-frame-alist '(font . "Ubuntu Mono for Powerline-09"))
 ;; (set-frame-parameter (selected-frame) 'alpha '(95 90))
 ;; (color-theme-gruber-darker)
 ;; (color-theme-sanityinc-tomorrow-night)
@@ -63,12 +64,6 @@
 (setq search-highlight            t) ;; Highlight search object
 (setq query-replace-highlight     t) ;; Highlight query object
 (setq mouse-sel-retain-highlight  t) ;; Keep mouse highlighting
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
 
 (setq default-frame-alist
       (append default-frame-alist
