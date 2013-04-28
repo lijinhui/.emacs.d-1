@@ -12,7 +12,9 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
 
-(defvar my-packages '(auto-complete
+(defvar my-packages '(rust-mode
+                      ctags
+                      auto-complete
                       htmlize
                       ack-and-a-half
                       guru-mode
