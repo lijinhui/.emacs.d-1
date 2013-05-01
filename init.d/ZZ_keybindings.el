@@ -27,5 +27,6 @@
 ;; Disable C-t for textmate mode and rebind to projectile file file
 (define-key global-map (kbd "C-t") 'projectile-find-file)
 
-(define-key global-map (kbd "C-T") 'custom-goto-symbol)
+(define-key global-map (kbd "C-S-t") 'custom-goto-symbol)
 (define-key global-map (kbd "C-x g") 'magit-status)
+(define-key global-map (kbd "C-x O") 'other-frame)

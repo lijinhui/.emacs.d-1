@@ -13,6 +13,7 @@
   (package-refresh-contents))
 
 (defvar my-packages '(ag
+                      org
                       projectile
                       rust-mode
                       ctags
