@@ -13,6 +13,7 @@
   (package-refresh-contents))
 
 (defvar my-packages '(ag
+                      linum-relative
                       org
                       projectile
                       rust-mode

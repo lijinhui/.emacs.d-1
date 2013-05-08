@@ -15,8 +15,6 @@
  '(fci-rule-color "#efefef")
  '(fill-column 80)
  '(fringe-mode (quote (nil . 0)) nil (fringe))
- '(global-linum-mode t)
- '(global-visual-line-mode t)
  '(ido-enable-flex-matching t)
  '(ido-mode (quote both) nil (ido))
  '(ido-use-filename-at-point (quote guess))
@@ -48,8 +46,8 @@
 
 
 
-(set-default-font "Ubuntu Mono for Powerline-09")
-(add-to-list 'default-frame-alist '(font . "Ubuntu Mono for Powerline-09"))
+(set-default-font "Ubuntu Mono for Powerline-11")
+(add-to-list 'default-frame-alist '(font . "Ubuntu Mono for Powerline-11"))
 ;; (set-frame-parameter (selected-frame) 'alpha '(95 90))
 ;; (color-theme-gruber-darker)
 ;; (color-theme-sanityinc-tomorrow-night)
