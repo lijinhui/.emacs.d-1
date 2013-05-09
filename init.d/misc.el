@@ -72,7 +72,6 @@
 
 (allow-line-as-region-for-function comment-or-uncomment-region)
 
-;; (defun textmate-define-comment-line ()
-;;   "Add or-line (un)comment function if not already defined"
-;;   (unless (fboundp 'comment-or-uncomment-region-or-line)
-;;     (allow-line-as-region-for-function comment-or-uncomment-region)))
+(defun describe-last-function()
+  (interactive)
+  (describe-function last-command))

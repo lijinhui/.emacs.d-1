@@ -46,8 +46,8 @@
 
 
 
-(set-default-font "Ubuntu Mono for Powerline-11")
-(add-to-list 'default-frame-alist '(font . "Ubuntu Mono for Powerline-11"))
+(set-default-font "Ubuntu Mono for Powerline-10")
+(add-to-list 'default-frame-alist '(font . "Ubuntu Mono for Powerline-10"))
 ;; (set-frame-parameter (selected-frame) 'alpha '(95 90))
 ;; (color-theme-gruber-darker)
 ;; (color-theme-sanityinc-tomorrow-night)
