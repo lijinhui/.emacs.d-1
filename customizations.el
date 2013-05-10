@@ -52,7 +52,8 @@
 ;; (color-theme-gruber-darker)
 ;; (color-theme-sanityinc-tomorrow-night)
 ;; (set-default-font "Inconsolata-09")
-(color-theme-sanityinc-tomorrow-day)
+;; (color-theme-sanityinc-tomorrow-day)
+(color-theme-heroku)
 (menu-bar-mode 0)
 
 (setq make-backup-files        nil) ;; Don't want any backup files
@@ -67,5 +68,7 @@
       (append default-frame-alist
               '((foreground-color . "Black")
                 (background-color . "White")
-                (cursor-color . "SkyBlue")
+                (cursor-color     . "SkyBlue")
+                (width            . 90)
+                (height           . 40)
                 )))

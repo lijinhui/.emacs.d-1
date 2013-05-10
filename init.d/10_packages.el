@@ -44,6 +44,8 @@
 		      fill-column-indicator
                       cppcheck
                       color-theme
+                      color-theme-heroku
+                      color-theme-tangotango
                       color-theme-sanityinc-tomorrow
                       color-theme-sanityinc-solarized
                       color-theme-monokai
