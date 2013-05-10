@@ -71,4 +71,5 @@
                 (cursor-color     . "SkyBlue")
                 (width            . 90)
                 (height           . 40)
+                (alpha            . (80 50))
                 )))
