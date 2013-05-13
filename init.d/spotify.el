@@ -9,6 +9,10 @@
 ;;
 ;; For linux, no additional files are needed :)
 
+(defun spotify-linux-command (command-name) "Execute command for Spotify" (interactive)
+  (setq command-text (format "%s%s" "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player." command-name))
+  (shell-command command-text))
+
 (defun spotify-play () "Play Spotify" (interactive)
   (if (string-equal system-type "gnu/linux")
       (spotify-linux-command "Play"))
@@ -38,10 +42,6 @@
       (spotify-linux-command "Next"))
   (if (string-equal system-type "darwin")
       (shell-command "spotify next")))
-
-(defun spotify-linux-command (command-name) "Execute command for Spotify" (interactive)
-  (setq command-text (format "%s%s" "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player." command-name))
-  (shell-command command-text))
 
 (global-set-key (kbd "<f7>") 'spotify-previous)
 (global-set-key (kbd "<f8>") 'spotify-toggle)

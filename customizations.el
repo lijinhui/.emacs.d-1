@@ -47,11 +47,15 @@
 
 (set-default-font "Ubuntu Mono for Powerline-11")
 (add-to-list 'default-frame-alist '(font . "Ubuntu Mono for Powerline-11"))
+;; (set-default-font "Ubuntu Mono for Powerline-10")
+;; (add-to-list 'default-frame-alist '(font . "Ubuntu Mono for Powerline-10"))
 ;; (set-frame-parameter (selected-frame) 'alpha '(95 90))
 ;; (color-theme-gruber-darker)
 ;; (color-theme-sanityinc-tomorrow-night)
 ;; (set-default-font "Inconsolata-09")
 ;; (color-theme-sanityinc-tomorrow-day)
+;; (set-default-font "Monospace-08")
+;; (add-to-list 'default-frame-alist '(font . "Monospace-08"))
 (color-theme-heroku)
 (menu-bar-mode 0)
 
