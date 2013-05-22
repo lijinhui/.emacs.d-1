@@ -30,3 +30,6 @@
 (define-key global-map (kbd "C-S-t") 'custom-goto-symbol)
 (define-key global-map (kbd "C-x g") 'magit-status)
 (define-key global-map (kbd "C-x O") 'other-frame)
+
+;; RUN CUKES
+(define-key global-map (kbd "C-c C-c") 'run-cukes)

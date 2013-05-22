@@ -10,6 +10,7 @@
  '(cua-enable-cua-keys nil)
  '(cua-mode t nil (cua-base))
  '(cua-remap-control-z t)
+ '(scss-compile-at-save nil)
  '(custom-safe-themes (quote ("06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "bb08c73af94ee74453c90422485b29e5643b73b05e8de029a6909af6a3fb3f58" "4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" "b7553781f4a831d5af6545f7a5967eb002c8daeee688c5cbf33bf27936ec18b3" "965234e8069974a8b8c83e865e331e4f53ab9e74" default)))
  '(fci-rule-color "#efefef")
  '(fill-column 80)
@@ -45,8 +46,8 @@
 
 
 
-(set-default-font "Ubuntu Mono for Powerline-11")
-(add-to-list 'default-frame-alist '(font . "Ubuntu Mono for Powerline-11"))
+;; (set-default-font "Ubuntu Mono for Powerline-11")
+;; (add-to-list 'default-frame-alist '(font . "Ubuntu Mono for Powerline-11"))
 ;; (set-default-font "Ubuntu Mono for Powerline-10")
 ;; (add-to-list 'default-frame-alist '(font . "Ubuntu Mono for Powerline-10"))
 ;; (set-frame-parameter (selected-frame) 'alpha '(95 90))
@@ -54,8 +55,8 @@
 ;; (color-theme-sanityinc-tomorrow-night)
 ;; (set-default-font "Inconsolata-09")
 ;; (color-theme-sanityinc-tomorrow-day)
-;; (set-default-font "Monospace-08")
-;; (add-to-list 'default-frame-alist '(font . "Monospace-08"))
+(set-default-font "Anonymous Pro-10")
+(add-to-list 'default-frame-alist '(font . "Anonymous Pro-10"))
 (color-theme-heroku)
 (menu-bar-mode 0)
 
@@ -74,5 +75,5 @@
                 (cursor-color     . "SkyBlue")
                 (width            . 90)
                 (height           . 40)
-                (alpha            . (80 50))
+                (alpha            . (90 80))
                 )))
