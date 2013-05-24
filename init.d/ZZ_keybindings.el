@@ -32,4 +32,5 @@
 (define-key global-map (kbd "C-x O") 'other-frame)
 
 ;; RUN CUKES
-(define-key global-map (kbd "C-c C-c") 'run-cukes)
+(define-key global-map (kbd "C-c C-c") 'zcukes)
+(define-key global-map (kbd "C-c C-r") 'zroutes)
