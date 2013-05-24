@@ -16,8 +16,29 @@
   (setq tmux-pane-name z)
   (message "Tmux Setup, session name: %s, window name: %s, pane number: %s" tmux-session-name tmux-window-name tmux-pane-name))
 
+(defun tmux-current-file ()
+  "Test to just get the current buffer file path"
+  (interactive)
+  (message "Current buffer: %s" buffer-file-name))
+
+(defun tmux-current-line ()
+  "Test to just get the current cursor position"
+  (interactive)
+  (message "Current cursor pos: %s" (line-number-at-pos)))
+
+
 (defun zcukes () "Run Cucumber under Zeus" (interactive)
   (tmux-exec "zeus cucumber"))
+
+(defun zcukes-current-buffer ()
+  "Run Cucumber under Zeus on active buffer"
+  (interactive)
+  (tmux-exec (format "zeus cucumber %s" buffer-file-name)))
+
+(defun zcukes-current-buffer-and-line ()
+  "Run Cucumber under Zeus on the active buffer at current line"
+  (interactive)
+  (tmux-exec (format "zeus cucumber %s:%s" buffer-file-name (line-number-at-pos))))
 
 (defun zroutes () "Run rake routes under Zeus" (interactive)
   (tmux-exec "zeus rake routes"))

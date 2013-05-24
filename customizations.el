@@ -46,8 +46,8 @@
 
 
 
-(set-default-font "Ubuntu Mono for Powerline-09")
-(add-to-list 'default-frame-alist '(font . "Ubuntu Mono for Powerline-09"))
+;; (set-default-font "Ubuntu Mono for Powerline-10")
+;; (add-to-list 'default-frame-alist '(font . "Ubuntu Mono for Powerline-10"))
 ;; (set-default-font "Ubuntu Mono for Powerline-10")
 ;; (add-to-list 'default-frame-alist '(font . "Ubuntu Mono for Powerline-10"))
 ;; (set-frame-parameter (selected-frame) 'alpha '(95 90))
@@ -55,8 +55,8 @@
 ;; (color-theme-sanityinc-tomorrow-night)
 ;; (set-default-font "Inconsolata-09")
 ;; (color-theme-sanityinc-tomorrow-day)
-;; (set-default-font "Anonymous Pro-09")
-;; (add-to-list 'default-frame-alist '(font . "Anonymous Pro-"))
+(set-default-font "Anonymous Pro-10")
+(add-to-list 'default-frame-alist '(font . "Anonymous Pro-10"))
 (color-theme-heroku)
 (menu-bar-mode 0)
 
