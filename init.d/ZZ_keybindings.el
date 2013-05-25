@@ -33,4 +33,5 @@
 
 ;; RUN CUKES
 (define-key global-map (kbd "C-c C-c") 'zcukes)
+(define-key global-map (kbd "C-c C-S-c") 'zcukes-current-buffer)
 (define-key global-map (kbd "C-c C-r") 'zroutes)

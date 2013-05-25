@@ -16,17 +16,6 @@
   (setq tmux-pane-name z)
   (message "Tmux Setup, session name: %s, window name: %s, pane number: %s" tmux-session-name tmux-window-name tmux-pane-name))
 
-(defun tmux-current-file ()
-  "Test to just get the current buffer file path"
-  (interactive)
-  (message "Current buffer: %s" buffer-file-name))
-
-(defun tmux-current-line ()
-  "Test to just get the current cursor position"
-  (interactive)
-  (message "Current cursor pos: %s" (line-number-at-pos)))
-
-
 (defun zcukes () "Run Cucumber under Zeus" (interactive)
   (tmux-exec "zeus cucumber"))
 
