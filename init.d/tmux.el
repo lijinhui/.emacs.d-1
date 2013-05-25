@@ -16,7 +16,9 @@
   (setq tmux-pane-number z)
   (message "Tmux Setup, session name: %s, window name: %s, pane number: %s" tmux-session-name tmux-window-name tmux-pane-number))
 
-(defun zcukes () "Run Cucumber under Zeus" (interactive)
+(defun zcukes ()
+  "Run Cucumber under Zeus"
+  (interactive)
   (tmux-exec "zeus cucumber"))
 
 (defun zcukes-current-buffer ()
@@ -29,5 +31,7 @@
   (interactive)
   (tmux-exec (format "zeus cucumber %s:%s" buffer-file-name (line-number-at-pos))))
 
-(defun zroutes () "Run rake routes under Zeus" (interactive)
+(defun zroutes ()
+  "Run rake routes under Zeus"
+  (interactive)
   (tmux-exec "zeus rake routes"))
