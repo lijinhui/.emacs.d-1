@@ -18,13 +18,11 @@
                       projectile
                       rust-mode
                       ctags
+                      ido-ubiquitous
                       auto-complete
                       htmlize
-                      ack-and-a-half
-                      guru-mode
                       expand-region
                       ruby-tools
-                      writeroom-mode
                       ruby-end
                       rsense
                       rinari
@@ -34,7 +32,6 @@
                       feature-mode
                       yaml-mode
                       rainbow-mode
-                      ido-ubiquitous
                       coffee-mode
                       autopair
                       multiple-cursors
@@ -43,14 +40,11 @@
                       perspective
 		      fill-column-indicator
                       cppcheck
+	              go-autocomplete
+	              go-mode
+	              multi-web-mode
                       color-theme
-                      color-theme-heroku
-                      color-theme-tangotango
-                      color-theme-sanityinc-tomorrow
-                      color-theme-sanityinc-solarized
-                      color-theme-monokai
-		      color-theme-molokai
-                      color-theme-gruber-darker)
+                      color-theme-heroku)
   "A list of packages to ensure are installed at launch.")
 
 (dolist (p my-packages)

@@ -55,9 +55,8 @@
 ;; (color-theme-sanityinc-tomorrow-night)
 ;; (set-default-font "Inconsolata-09")
 ;; (color-theme-sanityinc-tomorrow-day)
-(set-default-font "Anonymous Pro-10")
-(add-to-list 'default-frame-alist '(font . "Anonymous Pro-10"))
-(color-theme-heroku)
+(set-default-font "Source Code Pro-09")
+(add-to-list 'default-frame-alist '(font . "Source Code Pro-09"))
 (menu-bar-mode 0)
 
 (setq make-backup-files        nil) ;; Don't want any backup files
@@ -68,12 +67,12 @@
 (setq query-replace-highlight     t) ;; Highlight query object
 (setq mouse-sel-retain-highlight  t) ;; Keep mouse highlighting
 
-(setq default-frame-alist
-      (append default-frame-alist
-              '((foreground-color . "Black")
-                (background-color . "White")
-                (cursor-color     . "SkyBlue")
-                (width            . 90)
-                (height           . 40)
-                (alpha            . (90 80))
-                )))
+;; (setq default-frame-alist
+;;       (append default-frame-alist
+;;               '((foreground-color . "Black")
+;;                 (background-color . "White")
+;;                 (cursor-color     . "SkyBlue")
+;;                 (width            . 90)
+;;                 (height           . 40)
+;;                 (alpha            . (90 80))
+;;                 )))
